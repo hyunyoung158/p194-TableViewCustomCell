@@ -36,9 +36,10 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 	
-	data = @[[Product product:@"Ball1" price:@"100" image:@"ball1.png"],
-             [Product product:@"Ball2" price:@"200" image:@"ball2.png"],
-			 [Product product:@"Ball3" price:@"300" image:@"ball3.png"],
+	data = @[[Product product:@"baseball" price:@"100" image:@"baseball.png"],
+             [Product product:@"basketball" price:@"200" image:@"basketball.png"],
+			 [Product product:@"football" price:@"300" image:@"football.png"],
+             [Product product:@"volleyball" price:@"400" image:@"volleyball.png"]
 			 ];
 	
 }
